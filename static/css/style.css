@@ -1,3 +1,8 @@
+/* Copyright (c) 2023 Yağız Işkırık */
+
+/* This software is released under the MIT License. */
+/* https://opensource.org/licenses/MIT */
+
 :root {
     --columns: 6;
     --rows: 3;
@@ -50,7 +55,13 @@ body {
 }
 
 .btn.sendActive {
-    font-size: 3rem;
+    font-size: 2.75rem;
+    flex-direction: column;
+}
+
+.btn.sendActive p {
+    font-size: 0.75rem;
+    margin-top: 1rem;
 }
 
 .container {

@@ -8,7 +8,7 @@
     <link rel="apple-touch-icon" href="images/newLogo.png" type="image/png">
     <title>ShortyBox</title>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
 </head>
@@ -20,8 +20,13 @@
         </div>
         <div class="scroll-container">
             <div class="container">
-                <button class="btn sendActive" data-active="GPSAlign">
+                <button class="btn sendActive" data-active="GPSOn">
                     <i class="fa-solid fa-dharmachakra"></i>
+                    <p class="m-0">GPS</p>
+                </button>
+                <button class="btn sendActive" data-active="AutoSteer">
+                    <i class="fa-solid fa-truck-plane"></i>
+                    <p class="m-0">Steer</p>
                 </button>
             </div>
         </div>
@@ -29,5 +34,6 @@
             Footer
         </div>
     </div>
+    <script src="/static/js/index.js"></script>
 </body>
 </html>
